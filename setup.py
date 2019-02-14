@@ -3,6 +3,8 @@
 
 from setuptools import setup
 from glob import glob
+from setuptools.command.install import install as install_
+
 
 with open('README.md') as readme_file:
     readme = readme_file.read()
